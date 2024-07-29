@@ -85,7 +85,7 @@ class GradeBook:
                 grade = self.grade_from_marks(marks)
                 print(f"Grade: {'.' * (25 - len('Grade: ' + grade))} {grade}")
                 print("............................................................")
-                print(f"{student.names} has successfully completed {course.name}!")
+                print(f"{student.names} has successfully completed {course.name} Course!")
                 print("............................................................")
         else:
             print("Student not found")
